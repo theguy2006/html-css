@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+a#eu:hover{
+        text-decoration: underline;
+        color: red;
+        }
+        a#eu{
+            text-decoration: none;
+        }
+  html, body{
+    min-height: 100vh;
+    background-color: rgb(165, 83, 42);
+  } 
+  header{
+    background-color: rgb(189, 2, 2);
+    color: #f1f1f1;
+    text-align: center;
+    
+  }
+  header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+  }
+  header > h2{
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+  }
+  footer
