@@ -29,4 +29,29 @@ a#eu:hover{
     color: rgb(0, 0, 0);
     padding-bottom: 50px;
   }
-  footer
+  footer{
+    background-color: rgb(161, 0, 0);
+    text-align: center;
+    color: #f1f1f1;
+    padding:10px;
+  }
+
+  .normal{
+    background-color: white;
+    color: black;
+  }
+  .imagem{
+    background-color: black;
+    color: #f1f1f1;
+    
+  }
+  .imagem > p{
+    background-color: rgb(70, 70, 70);
+    width: 400px;
+  }
+  section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em;
+    padding-left: 40px;
+  }
