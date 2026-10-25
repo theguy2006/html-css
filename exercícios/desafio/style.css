@@ -56,10 +56,12 @@ a#eu:hover{
     background-color: black;
     color: #f1f1f1;
     
+    
   }
   .imagem > p{
     background-color: rgb(70, 70, 70);
     display: inline-block;
+    box-shadow: 5px 5px 8px black;
   }
   section{
     padding-top: 10vh;
@@ -67,4 +69,21 @@ a#eu:hover{
     line-height: 3em;
     padding-left: 40px;
     font-size: 2em;
+  }
+  section > p{
+    padding: 1em;
+  }
+
+  section#img01{
+    background-image: url(imagens/images\ \(3\).jpeg);
+    background-attachment: fixed;
+  }
+  section#img02{
+    background-image: url(imagens/Combatente_da_Caatinga_\(26094324954\).jpg);
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  section{
+    box-shadow: 3px 3px 5px black;
   }
