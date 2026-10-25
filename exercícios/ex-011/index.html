@@ -11,16 +11,19 @@
 
         table{
             width: 600px;
-            border-collapse: collapse; 
-            border: 8px solid darkgreen;
+            border-collapse: collapse;
             
         }
         td{
             border: 2px solid black;
             padding: 10px;
+            text-align: center; /*alinhamento horizontal*/
+            vertical-align: middle; /*alinhamento horizontal*/
+
         }
-        .linha{
-            background-color: lightgray;
+
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -33,7 +36,7 @@
             TABLE HEADER = CABELHO DE TABELA
             TABLE DATA = DADO DE TABELA -->
     <table>
-        <tr class="linha"> <!--PRIMEIRA LINHA-->
+        <tr> <!--PRIMEIRA LINHA-->
             <td>A1</td>
             <TD>B1</TD>
             <TD>C1</TD>
@@ -41,12 +44,12 @@
         <tr>
             <td>A2</td> <!--SEGUNDA LINHA-->
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
             <td>A3</td> <!--TERCEIRA LINHA-->
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr>
             <td>A4</td> <!--QUARTA LINHA-->
