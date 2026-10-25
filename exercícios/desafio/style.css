@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+  --fonte-principal:"Special Elite",system-ui;
+  --fonte-secundária:"Winky Rough", sans-serif;
+}
   * {
     margin: 0px;
     padding: 0px;
@@ -14,6 +21,9 @@ a#eu:hover{
   html, body{
     min-height: 100vh;
     background-color: rgb(165, 83, 42);
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    
   } 
   header{
     background-color: rgb(189, 2, 2);
@@ -24,6 +34,7 @@ a#eu:hover{
   header h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 5vw;
   }
   header > h2{
     color: rgb(0, 0, 0);
@@ -34,6 +45,7 @@ a#eu:hover{
     text-align: center;
     color: #f1f1f1;
     padding:10px;
+    font-family: var(--fonte-secundária);
   }
 
   .normal{
@@ -47,11 +59,12 @@ a#eu:hover{
   }
   .imagem > p{
     background-color: rgb(70, 70, 70);
-    width: 400px;
+    display: inline-block;
   }
   section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 3em;
     padding-left: 40px;
+    font-size: 2em;
   }
