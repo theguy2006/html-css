@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de informações</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        width: 500px;
+      }
+      th,
+      td {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 8px;
+      }
+      caption{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 8px;
+        background-color: blueviolet;
+        border: 1px solid black;
+      }
+      .control{
+        background-color: gold;
+      }
+      .sexo{
+        text-align: center;
+      }
+      .wait{
+        background-color: blueviolet;
+      }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="control">
+            <col class="wait" span="2">
+            <col class="we gain">
+            <col class="we lose">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td class="sexo">F</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Fabrícia Melo</td>
+            <td class="sexo">F</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Mario Porto</td>
+            <td class="sexo">M</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Renato Aragão</td>
+            <td class="sexo">M</td>
+            <td>67</td>
+        </tr>
+    </table>
+</body>
+</html>
