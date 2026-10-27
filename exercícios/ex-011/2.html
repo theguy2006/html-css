@@ -14,7 +14,7 @@
             border-collapse: collapse;
         }
 
-        td, th {
+        td, th { 
             border: 1px solid black;
             padding: 10px;
         }
@@ -26,10 +26,17 @@
         .total{
             font-weight: bold;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: rgb(125, 124, 124);
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
     <!--Anatomia para tabelas grandes
+        CAPITION
         THEAD
         TBODY
         TFOOT
@@ -43,10 +50,11 @@
     -->
 
     <Table>
+        <caption>População das unidades federativas Bostileiras</caption>
         <THead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
             </tr>
         </THead>
     <tbody>
@@ -161,7 +169,7 @@
      </tbody>
             
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td class="total">214 211 951</td>
         </tfoot>
     </Table>

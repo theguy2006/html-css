@@ -1,61 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabelas</title>
     <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-        table{
-            width: 600px;
-            border-collapse: collapse;
-            
-        }
-        td{
-            border: 2px solid black;
-            padding: 10px;
-            text-align: center; /*alinhamento horizontal*/
-            vertical-align: middle; /*alinhamento horizontal*/
+      table {
+        width: 600px;
+        border-collapse: collapse;
+      }
+      td {
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center; /*alinhamento horizontal*/
+        vertical-align: middle; /*alinhamento horizontal*/
+      }
 
-        }
-
-        .numero{
-            text-align: right;
-        }
+      .numero {
+        text-align: right;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Minha primeira tabela</h1>
-    
-        <!-- HIERARQUIA DE TABELAS (SIMPLES)
+
+    <!-- HIERARQUIA DE TABELAS (SIMPLES)
         TABLE = TABELA
         TABLE ROWS = linhas de tabela
             TABLE HEADER = CABELHO DE TABELA
             TABLE DATA = DADO DE TABELA -->
     <table>
-        <tr> <!--PRIMEIRA LINHA-->
-            <td>A1</td>
-            <TD>B1</TD>
-            <TD>C1</TD>
-        </tr>
-        <tr>
-            <td>A2</td> <!--SEGUNDA LINHA-->
-            <td>B2</td>
-            <td class="numero">C2</td>
-        </tr>
-        <tr>
-            <td>A3</td> <!--TERCEIRA LINHA-->
-            <td>B3</td>
-            <td class="numero">C3</td>
-        </tr>
-        <tr>
-            <td>A4</td> <!--QUARTA LINHA-->
-            <td>B4</td>
-            <td>C4</td>
-        </tr>
+      <tr>
+        <!--PRIMEIRA LINHA-->
+        <td>A1</td>
+        <td>B1</td>
+        <td>C1</td>
+      </tr>
+      <tr>
+        <td>A2</td>
+        <!--SEGUNDA LINHA-->
+        <td>B2</td>
+        <td class="numero">C2</td>
+      </tr>
+      <tr>
+        <td>A3</td>
+        <!--TERCEIRA LINHA-->
+        <td>B3</td>
+        <td class="numero">C3</td>
+      </tr>
+      <tr>
+        <td>A4</td>
+        <!--QUARTA LINHA-->
+        <td>B4</td>
+        <td>C4</td>
+      </tr>
     </table>
-</body>
+  </body>
 </html>
