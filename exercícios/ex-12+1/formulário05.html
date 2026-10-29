@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1{
+        text-align: center;
+      }
+      fieldset{
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de formulário</h1>
+    <form action="arquivo.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sex" id="imasc" value="M"> <label for="imasc">Maculino</label> <br>
+            <input type="radio" name="sex" id="ifem" value="F"> <label for="ifem">Feminino</label>
+        </fieldset> <br> <br>
+      <fieldset>
+        <legend>esportes favoritos</legend>
+        <input type="checkbox" name="fut" id="ifut" />
+        <label for="ifut">Futebol</label>  <br>
+        <input type="checkbox" name="bas" id="ibas" />
+        <label for="ibas">basquete</label> <br>
+        <input type="checkbox" name="vol" id="ivol" />
+        <label for="ivol">volei</label> <br>
+        <input type="checkbox" name="hand" id="ihand" />
+        <label for="ihand">handball</label> <br>
+        <input type="checkbox" name="rug" id="irug" />
+        <label for="irug">rugby</label> <br>
+      </fieldset> <br> <br>
+      <input type="submit" value="enviar" />
+      <input type="reset" value="limpar" />
+    </form>
+  </body>
+</html>
