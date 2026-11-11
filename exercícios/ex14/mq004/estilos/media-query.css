@@ -3,5 +3,24 @@
 /*TODAS A MÍDIAS*/
 
 @media print{
-    
+
 }
+
+/* @media screen and (max-width: 600px){
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 780){
+
+} */
+
+    @media screen and (min-width:768) and (max-width: 992px){
+
+    }
+    @media screen and (min-width:992) and (max-width:1200px){
+
+    }
+
+    @media screen and (min-width:1200){
+        
+    }
