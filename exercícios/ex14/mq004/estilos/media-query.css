@@ -2,8 +2,7 @@
 
 /*TODAS A MÍDIAS*/
 
-@media print{
-
+@media print {
 }
 
 /* @media screen and (max-width: 600px){
@@ -14,13 +13,64 @@
 
 } */
 
-    @media screen and (min-width:768) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: url(../imagens/back-tablet.jpg);
+  }
+  img#phone {
+    display: block;
+  }
+  img#tablet {
+    display: block;
+  }
+  img#print {
+    display: none;
+  }
+  img#pc {
+    display: none;
+  }
+  img#tv {
+    display: none;
+  }
+}
+@media screen and (min-width: 992) and (max-width: 1200px) {
+  body {
+    background-image: url(../imagens/back-pc.jpg);
+  }
+  img#phone {
+    display: block;
+  }
+  img#tablet {
+    display: none;
+  }
+  img#print {
+    display: none;
+  }
+  img#pc {
+    display: block;
+  }
+  img#tv {
+    display: none;
+  }
+}
 
-    }
-    @media screen and (min-width:992) and (max-width:1200px){
-
-    }
-
-    @media screen and (min-width:1200){
-        
-    }
+@media screen and (min-width: 1200) {
+}
+body{
+    background-image: url(../imagens/back-tv.jpg);
+}
+img#phone{
+    display: block;
+}
+img#tablet{
+    display: none;
+}
+img#print{
+    display: none;
+}
+img#pc{
+    display: block;
+}
+img#tv{
+    display: none;
+}
